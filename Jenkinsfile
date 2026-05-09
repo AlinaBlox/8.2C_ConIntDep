@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'Build the code using Bazel to compile and package the application.'
+                echo 'Build the code using Maven to compile and package the application.'
             }
         }
 
